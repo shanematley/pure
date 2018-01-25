@@ -109,6 +109,10 @@ Defines the git down arrow symbol. The default value is `⇣`.
 
 Defines the git up arrow symbol. The default value is `⇡`.
 
+### `PURE_ALWAYS_SHOW_USERNAME`
+
+Set `PURE_ALWAYS_SHOW_USERNAME=1` to always show username and host. Default only shows username and host when logged in through ssh.
+
 ## Example
 
 ```sh
