@@ -464,6 +464,9 @@ prompt_pure_setup() {
 	# if a virtualenv is activated, display it in grey
 	PROMPT='%(12V.%F{242}%12v%f .)'
 
+	# display jobs if configured
+	[[ -n $PURE_DISPLAY_JOBS ]] && PROMPT+='%(1j.[%j] .)'
+
 	# prompt turns red if the previous command didn't exit with 0
 	PROMPT+='%(?.%F{magenta}.%F{red})${PURE_PROMPT_SYMBOL:-❯}%f '
 }

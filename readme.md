@@ -113,6 +113,10 @@ Defines the git up arrow symbol. The default value is `⇡`.
 
 Set `PURE_ALWAYS_SHOW_USERNAME=1` to always show username and host. Default only shows username and host when logged in through ssh.
 
+### `PURE_DISPLAY_JOBS`
+
+Set `PURE_DISPLAY_JOBS=1` to display the number of jobs in the background. Default is to not show jobs.
+
 ## Example
 
 ```sh
